@@ -75,6 +75,7 @@ class Game
 		exit
 	else
 		print "\nIncorrect command\n"
+        finish
 		exit
 	end
     end

@@ -77,7 +77,7 @@ class Board
 		end
 	end
       #Loops through diagonals
-	if(@bo[0] == player && @bo[4] == player && @bo[7] == player) then
+	if(@bo[0] == player && @bo[4] == player && @bo[8] == player) then
 		return player
 	end
 	if(@bo[2] == player && @bo[4] == player && @bo[6] == player) then
